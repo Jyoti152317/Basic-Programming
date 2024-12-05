@@ -14,3 +14,14 @@ function isPrime(num) {
 }
 
 console.log(isPrime(5));
+
+function evenOdd(num) {
+    if (num % 2 == 0) {
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+
+console.log(evenOdd(5));
